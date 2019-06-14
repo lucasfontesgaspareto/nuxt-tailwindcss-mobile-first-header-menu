@@ -1,0 +1,16 @@
+{
+  "name": "ldpg1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.1.0",
+    "nuxt": "^2.8.1"
+  },
+  "scripts": {
+    "dev": "nuxt dev"
+  },
+  "dependencies": {
+    "@nuxtjs/font-awesome": "^1.0.4"
+  }
+}
