@@ -1,6 +1,6 @@
 <template>
   <div class="container flex bg-green-400 w-screen h-screen">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white m-10 p-10">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white m-10 p-10 h-full">
       <form class="w-full max-w-sm">
         <div class="md:flex md:items-center mb-6">
           <div class="md:w-1/3">

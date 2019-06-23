@@ -1,14 +1,16 @@
 <template>
   <div class="bg-green-400 text-white" :class="{ 'absolute w-full h-screen top-0 left-0': menu }">
     <div class="container sm:mx-auto flex flex-wrap">
-      <div class="w-auto p-6">
-        <!-- Title -->
-        <h1 class="hidden sm:block">Menu Mobile First</h1>
-        <!-- Icon -->
-        <div class="block sm:hidden">
-          <i class="fa fa-rocket"></i>
+      <a href="/">
+        <div class="w-auto p-6">
+          <!-- Title -->
+          <h1 class="hidden sm:block">SuperCarteira.com</h1>
+          <!-- Icon -->
+          <div class="block sm:hidden">
+            <i class="fa fa-rocket"></i>
+          </div>
         </div>
-      </div>
+      </a>
       <!-- Desktop nav list -->
       <nav class="hidden sm:block">
         <ul class="flex">
@@ -47,19 +49,11 @@ export default {
       items: [
         {
           title: 'Home',
-          href: '#home'
+          href: '/'
         },
         {
-          title: 'About',
-          href: '#about'
-        },
-        {
-          title: 'Contact',
-          href: '#contact'
-        },
-        {
-          title: 'App',
-          href: '#app'
+          title: 'Entrar',
+          href: '/entrar'
         }
       ]
     }

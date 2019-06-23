@@ -1,4 +1,12 @@
+const router = {}
+
+if (process.env.NODE_ENV === 'gh-pages') {
+  router.base = '/nuxt-tailwindcss-mobile-first-header-menu/'
+}
+
 module.exports = {
+
+  lang: "pt-BR",
 
   head: {
     title: 'Landing Page #1',
@@ -17,7 +25,5 @@ module.exports = {
     '@/plugins/components'
   ],
 
-  router: {
-    base: '/nuxt-tailwindcss-mobile-first-header-menu/'
-  }
+  router: router
 }
