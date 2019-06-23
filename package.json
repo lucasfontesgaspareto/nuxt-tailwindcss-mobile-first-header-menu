@@ -8,7 +8,9 @@
     "nuxt": "^2.8.1"
   },
   "scripts": {
-    "dev": "nuxt dev"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxtjs/font-awesome": "^1.0.4"

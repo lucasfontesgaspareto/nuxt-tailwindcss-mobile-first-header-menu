@@ -15,5 +15,9 @@ module.exports = {
 
   plugins: [
     '@/plugins/components'
-  ]
+  ],
+
+  router: {
+    base: '/nuxt-tailwindcss-mobile-first-header-menu/'
+  }
 }
